@@ -1,30 +1,30 @@
 # Awesome Local AI with stars
 
-If you tried [Jan Desktop](https://github.com/janhq/jan?tab=readme-ov-file#download) ⭐ 46,054 | 🐛 592 | 🌐 Rust | 📅 2026-11-23 and liked it, please also check out the following **awesome collection of open source and/or local AI tools and solutions.**
+If you tried [Jan Desktop](https://github.com/janhq/jan?tab=readme-ov-file#download) ⭐ 46,081 | 🐛 593 | 🌐 Rust | 📅 2026-11-23 and liked it, please also check out the following **awesome collection of open source and/or local AI tools and solutions.**
 
 Your contributions are always welcome!
 
 ## Lists
 
-* [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) ⭐ 816 | 🐛 2 | 🌐 Python | 📅 2026-11-16 - Table of open-source local LLM inference projects with their GitHub metrics.
+* [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) ⭐ 816 | 🐛 3 | 🌐 Python | 📅 2026-11-16 - Table of open-source local LLM inference projects with their GitHub metrics.
 * [llama-police](https://huyenchip.com/llama-police.html) - A list of Open Source LLM Tools from [Chip Huyen](https://huyenchip.com)
 
 ## Inference Engine
 
 | Repository                                                                                                       | Description                                                                          | Supported model formats  | CPU/GPU Support | UI | language    | Platform Type |
 | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------ | --------------- | -- | ----------- | ------------- |
-| [llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 136,083 \| 🐛 2,651 \| 🌐 C++ \| 📅 2026-11-24             | - Inference of LLaMA model in pure C/C++                                             | GGML/GGUF                | Both            | ❌  | C/C++       | Text-Gen      |
+| [llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 136,142 \| 🐛 2,663 \| 🌐 C++ \| 📅 2026-11-24             | - Inference of LLaMA model in pure C/C++                                             | GGML/GGUF                | Both            | ❌  | C/C++       | Text-Gen      |
 | [Cortex](https://github.com/janhq/cortex.cpp) ⚠️ Archived                                                        | - Multi-engine engine embeddable in your apps. Uses llama.cpp and more               | Both                     | Both            | ❌  | Text-Gen    |               |
-| [ollama](https://github.com/jmorganca/ollama) ⭐ 187,914 \| 🐛 4,738 \| 🌐 Go \| 📅 2026-11-23                    | - CLI and local server. Uses llama.cpp                                               | Both                     | Both            | ❌  | Text-Gen    |               |
-| [koboldcpp](https://github.com/LostRuins/koboldcpp) ⭐ 12,375 \| 🐛 542 \| 🌐 C++ \| 📅 2026-11-23                | - A simple one-file way to run various GGML models with KoboldAI's UI                | GGML                     | Both            | ✅  | C/C++       | Text-Gen      |
+| [ollama](https://github.com/jmorganca/ollama) ⭐ 188,002 \| 🐛 4,756 \| 🌐 Go \| 📅 2026-11-24                    | - CLI and local server. Uses llama.cpp                                               | Both                     | Both            | ❌  | Text-Gen    |               |
+| [koboldcpp](https://github.com/LostRuins/koboldcpp) ⭐ 12,382 \| 🐛 553 \| 🌐 C++ \| 📅 2026-11-24                | - A simple one-file way to run various GGML models with KoboldAI's UI                | GGML                     | Both            | ✅  | C/C++       | Text-Gen      |
 | [LoLLMS](https://github.com/ParisNeo/lollms) ⭐ 106 \| 🐛 14 \| 🌐 Vue \| 📅 2026-11-23                           | - Lord of Large Language Models Web User Interface.                                  | Nearly ALL               | Both            | ✅  | Python      | Text-Gen      |
 | [ExLlama](https://github.com/turboderp/exllama) ⭐ 2,946 \| 🐛 64 \| 🌐 Python \| 📅 2023-09-30                   | - A more memory-efficient rewrite of the HF transformers implementation of Llama     | AutoGPTQ/GPTQ            | GPU             | ✅  | Python/C++  | Text-Gen      |
-| [vLLM](https://github.com/vllm-project/vllm) ⭐ 97,423 \| 🐛 11,003 \| 🌐 Python \| 📅 2026-11-24                 | - vLLM is a fast and easy-to-use library for LLM inference and serving.              | GGML/GGUF                | Both            | ❌  | Python      | Text-Gen      |
-| [SGLang](https://github.com/sgl-project/sglang) ⭐ 38,990 \| 🐛 7,234 \| 🌐 Python \| 📅 2026-11-24               | - 3-5x higher throughput than vLLM (Control flow, RadixAttention, KV cache reuse)    | Safetensor / AWQ / GPTQ  | GPU             | ❌  | Python      | Text-Gen      |
-| [LmDeploy](https://github.com/InternLM/lmdeploy) ⭐ 8,155 \| 🐛 674 \| 🌐 Python \| 📅 2026-11-23                 | - LMDeploy is a toolkit for compressing, deploying, and serving LLMs.                | Pytorch / Turbomind      | Both            | ❌  | Python/C++  | Text-Gen      |
-| [Tensorrt-llm](https://github.com/NVIDIA/TensorRT-LLM) ⭐ 15,120 \| 🐛 2,068 \| 🌐 Python \| 📅 2026-11-24        | - Inference efficiently on NVIDIA GPUs                                               | Python / C++ runtimes    | Both            | ❌  | Python/C++  | Text-Gen      |
+| [vLLM](https://github.com/vllm-project/vllm) ⭐ 97,494 \| 🐛 11,109 \| 🌐 Python \| 📅 2026-11-24                 | - vLLM is a fast and easy-to-use library for LLM inference and serving.              | GGML/GGUF                | Both            | ❌  | Python      | Text-Gen      |
+| [SGLang](https://github.com/sgl-project/sglang) ⭐ 39,025 \| 🐛 7,359 \| 🌐 Python \| 📅 2026-11-24               | - 3-5x higher throughput than vLLM (Control flow, RadixAttention, KV cache reuse)    | Safetensor / AWQ / GPTQ  | GPU             | ❌  | Python      | Text-Gen      |
+| [LmDeploy](https://github.com/InternLM/lmdeploy) ⭐ 8,156 \| 🐛 673 \| 🌐 Python \| 📅 2026-11-24                 | - LMDeploy is a toolkit for compressing, deploying, and serving LLMs.                | Pytorch / Turbomind      | Both            | ❌  | Python/C++  | Text-Gen      |
+| [Tensorrt-llm](https://github.com/NVIDIA/TensorRT-LLM) ⭐ 15,128 \| 🐛 2,037 \| 🌐 Python \| 📅 2026-11-24        | - Inference efficiently on NVIDIA GPUs                                               | Python / C++ runtimes    | Both            | ❌  | Python/C++  | Text-Gen      |
 | [CTransformers](https://github.com/marella/ctransformers) ⭐ 1,888 \| 🐛 112 \| 🌐 C \| 📅 2024-01-28             | - Python bindings for the Transformer models implemented in C/C++ using GGML library | GGML/GPTQ                | Both            | ❌  | C/C++       | Text-Gen      |
-| [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) ⭐ 10,693 \| 🐛 725 \| 🌐 Python \| 📅 2026-11-23 | - Python bindings for llama.cpp                                                      | GGUF                     | Both            | ❌  | Python      | Text-Gen      |
+| [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) ⭐ 10,693 \| 🐛 729 \| 🌐 Python \| 📅 2026-11-23 | - Python bindings for llama.cpp                                                      | GGUF                     | Both            | ❌  | Python      | Text-Gen      |
 | [llama2.rs](https://github.com/srush/llama2.rs) ⭐ 1,060 \| 🐛 15 \| 🌐 Rust \| 📅 2023-11-30                     | - A fast llama2 decoder in pure Rust                                                 | GPTQ                     | CPU             | ❌  | Rust        | Text-Gen      |
 | [ExLlamaV2](https://github.com/turboderp/exllamav2) ⭐ 4,656 \| 🐛 164 \| 🌐 Python \| 📅 2026-03-04              | - A fast inference library for running LLMs locally on modern consumer-class GPUs    | GPTQ/EXL2                | GPU             | ❌  | Python/C++  | Text-Gen      |
 | [LoRAX](https://github.com/predibase/lorax) ⚠️ Archived                                                          | - Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs                | Safetensor / AWQ / GPTQ  | GPU             | ❌  | Python/Rust | Text-Gen      |
@@ -32,16 +32,16 @@ Your contributions are always welcome!
 
 ## Inference UI
 
-* [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) ⭐ 165,369 | 🐛 2,511 | 🌐 Python | 📅 2026-03-02 - Stable Diffusion web UI.
-* [ComfyUI](https://github.com/comfyanonymous/ComfyUI) ⭐ 148,294 | 🐛 5,623 | 🌐 Python | 📅 2026-11-23 - A powerful and modular stable diffusion GUI with a graph/nodes interface.
-* [LocalAI](https://github.com/go-skynet/LocalAI) ⭐ 50,512 | 🐛 216 | 🌐 Go | 📅 2026-11-23 - LocalAI is a drop-in replacement REST API that’s compatible with OpenAI API specifications for local inferencing.
-* [oobabooga](https://github.com/oobabooga/text-generation-webui) ⭐ 47,740 | 🐛 869 | 🌐 Python | 📅 2026-08-17 - A Gradio web UI for Large Language Models.
-* [ChatUI](https://github.com/huggingface/chat-ui) ⭐ 11,048 | 🐛 331 | 🌐 TypeScript | 📅 2026-11-23 - Open source codebase powering the HuggingChat app.
-* [petals](https://github.com/bigscience-workshop/petals) ⭐ 10,728 | 🐛 114 | 🌐 Python | 📅 2024-09-07 - Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading.
+* [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) ⭐ 165,372 | 🐛 2,511 | 🌐 Python | 📅 2026-03-02 - Stable Diffusion web UI.
+* [ComfyUI](https://github.com/comfyanonymous/ComfyUI) ⭐ 148,458 | 🐛 5,632 | 🌐 Python | 📅 2026-11-24 - A powerful and modular stable diffusion GUI with a graph/nodes interface.
+* [LocalAI](https://github.com/go-skynet/LocalAI) ⭐ 50,523 | 🐛 226 | 🌐 Go | 📅 2026-11-24 - LocalAI is a drop-in replacement REST API that’s compatible with OpenAI API specifications for local inferencing.
+* [oobabooga](https://github.com/oobabooga/text-generation-webui) ⭐ 47,744 | 🐛 869 | 🌐 Python | 📅 2026-08-17 - A Gradio web UI for Large Language Models.
+* [ChatUI](https://github.com/huggingface/chat-ui) ⭐ 11,051 | 🐛 332 | 🌐 TypeScript | 📅 2026-11-23 - Open source codebase powering the HuggingChat app.
+* [petals](https://github.com/bigscience-workshop/petals) ⭐ 10,726 | 🐛 114 | 🌐 Python | 📅 2024-09-07 - Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading.
 * [LLM as a Chatbot Service](https://github.com/deep-diver/LLM-As-Chatbot) ⭐ 3,312 | 🐛 20 | 🌐 Python | 📅 2023-11-20 - LLM as a Chatbot Service.
 * [LLMFarm](https://github.com/guinmoon/LLMFarm) ⭐ 2,082 | 🐛 46 | 🌐 C | 📅 2026-01-30 - llama and other large language models on iOS and MacOS offline using GGML library.
 * [QA-Pilot](https://github.com/reid41/QA-Pilot) ⭐ 327 | 🐛 7 | 🌐 Svelte | 📅 2026-09-14 - An interactive chat app that leverages Ollama(or openAI) models for rapid understanding and navigation of GitHub code repository or compressed file resources
-* [Wordflow](https://github.com/poloclub/wordflow) ⭐ 273 | 🐛 3 | 🌐 TypeScript | 📅 2026-04-07 - Run, share, and discover AI prompts in your browsers
+* [Wordflow](https://github.com/poloclub/wordflow) ⭐ 274 | 🐛 3 | 🌐 TypeScript | 📅 2026-04-07 - Run, share, and discover AI prompts in your browsers
 * [everything-rag](https://github.com/AstraBert/everything-rag) ⚠️ Archived - Interact with (virtually) any LLM on Hugging Face Hub with an asy-to-use, 100% local Gradio chatbot.
 * [Taskyon](https://github.com/Xyntopia/taskyon) ⭐ 55 | 🐛 4 | 🌐 TypeScript | 📅 2026-10-25 - Vue3 based Chat UI, integratable in webpages. Focused on "local first" principle. Any OpenAI API compatible endpoint.
 * [AI-Mask](https://github.com/pacoccino/ai-mask) ⭐ 32 | 🐛 1 | 🌐 TypeScript | 📅 2024-04-09 - Browser extension to provide model inference to web apps. Backed by web-llm and transformers.js
@@ -58,14 +58,14 @@ Your contributions are always welcome!
 ## Platforms / full solutions
 
 * [H2OAI](https://h2o.ai/#tabs-320f3fc63d-item-aa19ad7787-tab) - H2OGPT The fastest, most accurate AI Cloud Platform.
-* [BentoML](https://github.com/bentoml/BentoML) ⭐ 8,949 | 🐛 281 | 🌐 Python | 📅 2026-11-17 - BentoML is a framework for building reliable, scalable, and cost-efficient AI applications.
+* [BentoML](https://github.com/bentoml/BentoML) ⭐ 8,950 | 🐛 281 | 🌐 Python | 📅 2026-11-17 - BentoML is a framework for building reliable, scalable, and cost-efficient AI applications.
 * [Predibase](https://predibase.com/) - Serverless LoRA Fine-Tuning and Serving for LLMs.
 
 ## Developer tools
 
-* [gpt4all](https://github.com/nomic-ai/gpt4all) ⭐ 77,331 | 🐛 772 | 🌐 C++ | 📅 2025-05-27 - A chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.
-* [LiteLLM](https://github.com/BerriAI/litellm) ⭐ 63,779 | 🐛 5,497 | 🌐 Python | 📅 2026-11-24 - Call all LLM APIs using the OpenAI format.
-* [Langfuse](https://langfuse.com/) - Open-source LLM monitoring platform that helps teams collaboratively debug, analyze, and iterate on their LLM applications. [#opensource](https://github.com/langfuse/langfuse) ⭐ 37,761 | 🐛 1,203 | 🌐 TypeScript | 📅 2026-11-23
+* [gpt4all](https://github.com/nomic-ai/gpt4all) ⭐ 77,330 | 🐛 772 | 🌐 C++ | 📅 2025-05-27 - A chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.
+* [LiteLLM](https://github.com/BerriAI/litellm) ⭐ 63,835 | 🐛 5,528 | 🌐 Python | 📅 2026-11-24 - Call all LLM APIs using the OpenAI format.
+* [Langfuse](https://langfuse.com/) - Open-source LLM monitoring platform that helps teams collaboratively debug, analyze, and iterate on their LLM applications. [#opensource](https://github.com/langfuse/langfuse) ⭐ 37,801 | 🐛 1,218 | 🌐 TypeScript | 📅 2026-11-24
 * [Shell-Pilot](https://github.com/reid41/shell-pilot) ⭐ 121 | 🐛 2 | 🌐 Shell | 📅 2025-01-28 - Interact with LLM using Ollama models(or openAI, mistralAI)via pure shell scripts on your Linux(or MacOS) system, enhancing intelligent system management without any dependencies
 * [code-collator](https://github.com/tawanda-kembo/code-collator) ⭐ 28 | 🐛 0 | 🌐 Python | 📅 2024-10-09: Creates a single markdown file that describes your entire codebase to language models.
 * [Jan Framework](https://jan.ai/docs/) - At its core, Jan is a **cross-platform, local-first and AI native** application framework that can be used to build anything.
@@ -92,11 +92,11 @@ Your contributions are always welcome!
 
 ## Agents
 
-* [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) ⭐ 188,155 | 🐛 825 | 🌐 Python | 📅 2026-11-24 - An experimental open-source attempt to make GPT-4 fully autonomous.
-* [MetaGPT](https://github.com/geekan/MetaGPT) ⭐ 71,437 | 🐛 169 | 🌐 Python | 📅 2026-01-21 - The Multi-Agent Framework: Given one line requirement, return PRD, design, tasks, repo.
-* [Open Interpreter](https://github.com/KillianLucas/open-interpreter) ⭐ 68,956 | 🐛 37 | 🌐 Rust | 📅 2026-11-23 - Let language models run code. Have your agent write and execute code.
+* [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) ⭐ 188,169 | 🐛 842 | 🌐 Python | 📅 2026-11-24 - An experimental open-source attempt to make GPT-4 fully autonomous.
+* [MetaGPT](https://github.com/geekan/MetaGPT) ⭐ 71,467 | 🐛 172 | 🌐 Python | 📅 2026-01-21 - The Multi-Agent Framework: Given one line requirement, return PRD, design, tasks, repo.
+* [Open Interpreter](https://github.com/KillianLucas/open-interpreter) ⭐ 68,961 | 🐛 36 | 🌐 Rust | 📅 2026-11-24 - Let language models run code. Have your agent write and execute code.
 * [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) ⚠️ Archived - Specify what you want it to build, the AI asks for clarification, and then builds it.
-* [BabyAGI](https://github.com/yoheinakajima/babyagi) ⭐ 22,360 | 🐛 31 | 🌐 Python | 📅 2026-01-31 - Baby AGI is an autonomous AI agent developed using Python that operates through OpenAI and Pinecone APIs.
+* [BabyAGI](https://github.com/yoheinakajima/babyagi) ⭐ 22,362 | 🐛 31 | 🌐 Python | 📅 2026-01-31 - Baby AGI is an autonomous AI agent developed using Python that operates through OpenAI and Pinecone APIs.
 * [GPT Prompt Engineer](https://github.com/mshumer/gpt-prompt-engineer) ⭐ 9,679 | 🐛 33 | 🌐 Jupyter Notebook | 📅 2025-10-16 - Automated prompt engineering. It generates, tests, and ranks prompts to find the best ones.
 * [SuperAGI](https://superagi.com/) - Opensource AGI Infrastructure.
 * [AgentGPT](https://agentgpt.reworkd.ai/) -Assemble, configure, and deploy autonomous AI Agents in your browser.
@@ -107,15 +107,15 @@ Your contributions are always welcome!
 
 ## Training
 
-* [DeepSpeed](https://github.com/microsoft/DeepSpeed) ⭐ 43,354 | 🐛 1,601 | 🌐 Python | 📅 2026-11-24 - DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
-* [FastChat](https://github.com/lm-sys/FastChat) ⭐ 39,549 | 🐛 1,055 | 🌐 Python | 📅 2026-05-01 - An open platform for training, serving, and evaluating large language models.
-* [PEFT](https://github.com/huggingface/peft) ⭐ 21,918 | 🐛 112 | 🌐 Python | 📅 2026-11-23 - Parameter efficient fine-tuning (LoRA, DoRA, model merger and more)
-* [TRL](https://github.com/huggingface/trl) ⭐ 19,802 | 🐛 314 | 🌐 Python | 📅 2026-11-23 - Language model alignment with reinforcement learning.
-* [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) ⭐ 18,467 | 🐛 2,193 | 🌐 Python | 📅 2026-11-24 - Ongoing research training transformer models at scale.
-* [Ludwig](https://github.com/ludwig-ai/ludwig) ⭐ 11,792 | 🐛 2 | 🌐 Python | 📅 2026-11-23 - Low-code framework for building custom LLMs, neural networks, and other AI models.
+* [DeepSpeed](https://github.com/microsoft/DeepSpeed) ⭐ 43,360 | 🐛 1,601 | 🌐 Python | 📅 2026-11-24 - DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
+* [FastChat](https://github.com/lm-sys/FastChat) ⭐ 39,548 | 🐛 1,055 | 🌐 Python | 📅 2026-05-01 - An open platform for training, serving, and evaluating large language models.
+* [PEFT](https://github.com/huggingface/peft) ⭐ 21,916 | 🐛 116 | 🌐 Python | 📅 2026-11-24 - Parameter efficient fine-tuning (LoRA, DoRA, model merger and more)
+* [TRL](https://github.com/huggingface/trl) ⭐ 19,815 | 🐛 293 | 🌐 Python | 📅 2026-11-24 - Language model alignment with reinforcement learning.
+* [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) ⭐ 18,473 | 🐛 2,191 | 🌐 Python | 📅 2026-11-24 - Ongoing research training transformer models at scale.
+* [Ludwig](https://github.com/ludwig-ai/ludwig) ⭐ 11,792 | 🐛 3 | 🌐 Python | 📅 2026-11-23 - Low-code framework for building custom LLMs, neural networks, and other AI models.
 * [Alpa](https://github.com/alpa-projects/alpa) ⚠️ Archived - Alpa is a system for training and serving large-scale neural networks.
-* [Nanotron](https://github.com/huggingface/nanotron) ⭐ 2,871 | 🐛 165 | 🌐 Python | 📅 2026-10-08 - Minimalistic large language model 3D-parallelism training.
-* [BMTrain](https://github.com/OpenBMB/BMTrain) ⭐ 626 | 🐛 10 | 🌐 Python | 📅 2026-07-07 - Efficient Training for Big Models.
+* [Nanotron](https://github.com/huggingface/nanotron) ⭐ 2,871 | 🐛 161 | 🌐 Python | 📅 2026-10-08 - Minimalistic large language model 3D-parallelism training.
+* [BMTrain](https://github.com/OpenBMB/BMTrain) ⭐ 627 | 🐛 10 | 🌐 Python | 📅 2026-07-07 - Efficient Training for Big Models.
 
 ## LLM Leaderboard
 
